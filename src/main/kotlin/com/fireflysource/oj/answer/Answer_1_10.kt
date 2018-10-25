@@ -148,3 +148,22 @@ fun convert(s: String, numRows: Int): String {
     }
     return list.joinToString("")
 }
+
+/**
+ * 7. Reverse Integer
+ */
+fun reverse(x: Int): Int {
+    var i = x
+    var r = 0
+    while (i != 0) {
+        val t = i % 10
+        val tmp = r * 10 + t
+        if ((tmp - t) / 10 != r) {
+            return 0
+        } else {
+            r = tmp
+        }
+        i /= 10
+    }
+    return r
+}
