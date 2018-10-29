@@ -8,7 +8,8 @@ fun main(args: Array<String>) {
 //    println(lengthOfLongestSubstring("pwwkew"))
 //    println(findMedianSortedArrays(intArrayOf(1, 3), intArrayOf()))
 //    println(convert("PAYPALISHIRING", 3))
-    println(reverse(-23))
-    println(Integer.MAX_VALUE)
-    println(Integer.MIN_VALUE)
+//    println(reverse(-23))
+//    println(Integer.MAX_VALUE)
+//    println(Integer.MIN_VALUE)
+    println(maxProfit(intArrayOf(7, 1, 5, 3, 6, 4)))
 }
