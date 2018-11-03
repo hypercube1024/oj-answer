@@ -18,8 +18,8 @@
         <kotlin.coroutine.version>1.0.0</kotlin.coroutine.version>
         <kotlin.compiler.incremental>false</kotlin.compiler.incremental>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
-        <kotlin.compiler.languageVersion>1.2</kotlin.compiler.languageVersion>
-        <kotlin.compiler.apiVersion>1.2</kotlin.compiler.apiVersion>
+        <kotlin.compiler.languageVersion>1.3</kotlin.compiler.languageVersion>
+        <kotlin.compiler.apiVersion>1.3</kotlin.compiler.apiVersion>
         <kotlin.code.style>official</kotlin.code.style>
 
         <dokka.version>0.9.17</dokka.version>
@@ -425,10 +425,6 @@
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <configuration>
-                    <args>
-                        <arg>-Xcoroutines=enable</arg>
-                    </args>
-
                     <compilerPlugins>
                         <!-- Or "jpa" for JPA support -->
                         <plugin>no-arg</plugin>
