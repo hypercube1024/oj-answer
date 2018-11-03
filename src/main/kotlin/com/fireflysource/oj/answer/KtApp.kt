@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
 //    println(reverse(-23))
 //    println(Integer.MAX_VALUE)
 //    println(Integer.MIN_VALUE)
-    println(maxProfit(intArrayOf(7, 1, 5, 3, 6, 4)))
+    println(searchRatationArray(1, intArrayOf(4, 5, 6, 7, 8, 9, 1, 2, 3)))
 }
