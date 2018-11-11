@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <kotlin.version>1.3.0</kotlin.version>
-        <kotlin.coroutine.version>1.0.1</kotlin.coroutine.version>
+        <kotlin.coroutine.version>1.0.0</kotlin.coroutine.version>
         <kotlin.compiler.incremental>false</kotlin.compiler.incremental>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
         <kotlin.compiler.languageVersion>1.3</kotlin.compiler.languageVersion>
@@ -25,7 +25,7 @@
         <dokka.version>0.9.17</dokka.version>
         <dokka.config.noStdlibLink>true</dokka.config.noStdlibLink>
 
-        <firefly.version>4.9.3-SNAPSHOT</firefly.version>
+        <firefly.version>4.9.3</firefly.version>
         <jackson.version>2.9.7</jackson.version>
         <redisson.version>3.8.2</redisson.version>
     </properties>
